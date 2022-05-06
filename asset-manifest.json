@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Paired-numbers-game/static/css/main.ce96b1d6.css",
-    "main.js": "/Paired-numbers-game/static/js/main.a42e49f0.js",
+    "main.js": "/Paired-numbers-game/static/js/main.dcb517b1.js",
     "index.html": "/Paired-numbers-game/index.html",
     "main.ce96b1d6.css.map": "/Paired-numbers-game/static/css/main.ce96b1d6.css.map",
-    "main.a42e49f0.js.map": "/Paired-numbers-game/static/js/main.a42e49f0.js.map"
+    "main.dcb517b1.js.map": "/Paired-numbers-game/static/js/main.dcb517b1.js.map"
   },
   "entrypoints": [
     "static/css/main.ce96b1d6.css",
-    "static/js/main.a42e49f0.js"
+    "static/js/main.dcb517b1.js"
   ]
 }
