@@ -1,0 +1,62 @@
+.cell {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #b7b7b7 3px double;
+    border-radius: 5%;
+    transition: all linear .2s;
+    background: #eae9e9;
+    font-size: 42px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.cell p {
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow:
+            -0   -2px 1px #F210A7,
+            0   -2px 1px #F210A7,
+            -0    2px 1px #F210A7,
+            0    2px 1px #F210A7,
+            -2px -0   1px #F210A7,
+            2px -0   1px #F210A7,
+            -2px  0   1px #F210A7,
+            2px  0   1px #F210A7,
+            -1px -2px 1px #F210A7,
+            1px -2px 1px #F210A7,
+            -1px  2px 1px #F210A7,
+            1px  2px 1px #F210A7,
+            -2px -1px 1px #F210A7,
+            2px -1px 1px #F210A7,
+            -2px  1px 1px #F210A7,
+            2px  1px 1px #F210A7,
+            -2px -2px 1px #F210A7,
+            2px -2px 1px #F210A7,
+            -2px  2px 1px #F210A7,
+            2px  2px 1px #F210A7,
+            -2px -2px 1px #F210A7,
+            2px -2px 1px #F210A7,
+            -2px  2px 1px #F210A7,
+            2px  2px 1px #F210A7;
+}
+
+.cell:hover {
+    background: #ffffcc;
+    cursor: pointer;
+}
+.cell.active {
+    opacity: 0;
+    visibility: hidden;
+}
+.board-border {
+    border: 2px solid #ffffff;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.game-board {
+    position: absolute;
+    top: 5%;
+}

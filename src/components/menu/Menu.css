@@ -1,0 +1,105 @@
+.menu {
+    max-width: 600px;
+    margin: 20px;
+    padding: 8px;
+    position: absolute;
+    top: 25%;
+    font-family: 'Roboto', sans-serif;
+    transition: all .5s;
+}
+
+.game-name h2{
+    color: white;
+    font-size: 65px;
+}
+
+.game-name>p{
+    color: white;
+    font-size: 65px;
+}
+
+.description {
+    font-size: 18px;
+    margin: 25px 0 10px;
+    text-align: justify;
+}
+.description p {
+    font-size: 20px;
+    color: white;
+}
+
+.menu-btns {
+    margin-top: 25px;
+}
+
+.menu-btn{
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    width: 250px;
+    height: 50px;
+    font-size: 2em;
+    border-radius: 5px;
+    opacity: .7;
+    margin: auto;
+    transition: .3s;
+}
+
+.menu-btn:hover{
+    border: 2px solid #104F55;
+    background-color: rgba(365,365,365,0.5);
+    cursor: pointer;
+    color: #104F55;
+    opacity: .8;
+    transition: .3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.range p {
+    margin-bottom: 0;
+    font-size: 30px;
+    color: white;
+}
+
+.range {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.range input[type='range'] {
+    margin-left: 10px;
+    width: 250px;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    background: transparent;
+}
+.range input[type='range'],
+.range input[type='range']::-webkit-slider-runnable-track,
+.range input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+.range input[type='range']::-webkit-slider-runnable-track {
+    width: 200px;
+    height: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+.range input[type='range']::-webkit-slider-thumb {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    margin-top: -5px;
+    background: #cc359b;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.range input[type='range']::-webkit-slider-thumb::before {
+    position: absolute;
+    content: '';
+    height: 10px; /* equal to height of runnable track */
+    width: 500px; /* make this bigger than the widest range input element */
+    left: -502px; /* this should be -2px - width */
+    top: 8px; /* don't change this */
+    background: #777;
+}
