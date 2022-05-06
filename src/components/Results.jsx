@@ -1,7 +1,7 @@
 import React from 'react';
 import {formatTime} from "../utils/TimeFormat";
 
-const Results = ({gameResult, goToMenu}) => {
+const Results = ({gameResult, size, goToMenu}) => {
   const clicks = gameResult.score + gameResult.fails;
   const total = ((gameResult.score/clicks)*100).toFixed();
   return (
@@ -11,7 +11,7 @@ const Results = ({gameResult, goToMenu}) => {
           <h2>Результаты</h2>
         </div>
         <div className="description">
-          <p>Размер игрового поля: {gameResult.score}x{gameResult.score}</p>
+          <p>Размер игрового поля: {size}x{size}</p>
           <p>Вы справились за {formatTime(gameResult.time)}</p>
           <p>Всего попыток: {clicks}</p>
           <p>Количество неверных попыток: {gameResult.fails}</p>

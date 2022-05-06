@@ -35,7 +35,7 @@ const Game = () => {
   return (
     <div>
       {menuActive && <Menu startGame={startGame} gameOptions={{value: gameOptions, set: setGameOptions}}/>}
-      {resultsActive && <Results gameResult={gameResult} goToMenu={goToMenu}/>}
+      {resultsActive && <Results gameResult={gameResult} size={gameOptions.size} goToMenu={goToMenu}/>}
       {gameActive && <GameBoard size={gameOptions.size} content={generateNumberArray(gameOptions.size)} endGame={endGame} goToMenu={goToMenu}/>}
     </div>
   );
