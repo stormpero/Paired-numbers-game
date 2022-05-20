@@ -12,11 +12,10 @@ function App() {
 
   return (
     <DevProvider>
-      <div className="h-100">
-        <Background>
-            <Game/>
-        </Background>
-      </div>
+      <>
+        <Background/>
+        <Game/>
+      </>
     </DevProvider>
   )
 }

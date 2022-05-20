@@ -43,6 +43,7 @@
     opacity: .7;
     margin: auto;
     transition: .3s;
+    line-height: 1.2;
 }
 
 .menu-btn:hover{
